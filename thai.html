@@ -66,27 +66,7 @@
             background-position: center;
         }
     </style>
-    <script>
-        function disableScroll() {
-            // Get the current page scroll position
-            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
 
-                // if any scroll is attempted, set this to the previous value
-                window.onscroll = function () {
-                    window.scrollTo(scrollLeft, scrollTop);
-                };
-        }
-        
-        function enableScroll() {
-            window.onscroll = function () { };
-        }
-
-        disableScroll();
-        setTimeout(() => {
-            enableScroll();
-        }, 2000);
-    </script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
