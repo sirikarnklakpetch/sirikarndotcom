@@ -369,17 +369,30 @@
                             html. So I install the Apache on the Linux</p>
                         <a><b>The server os online! but not yet...</b></a>
                         <p>Right now my server is showing only Apache default page and the website is only accessable
-                            with IP address <a style="color: green;">&lt;!--and that is not convinience at all--&gt;</a> </p>
+                            with IP address <a style="color: green;">&lt;!--and that is not convinience at all--&gt;</a>
+                        </p>
                         <a><b>Buying Domain name</b></a>
-                        <p>I want my website to name after me not just some numbers. So I bought the domain name "sirikarn.com" from Google Domain for a year!</p>
+                        <p>I want my website to name after me not just some numbers. So I bought the domain name
+                            "sirikarn.com" from Google Domain for a year!</p>
                         <a><b>Set DNS server</b></a>
-                        <p>After I got the Domain Name. I set the DNS to point to the GCP. This process is really really confusing for me it took me weeks to finally set it up. after a lot of mistake when following online instruction.<p>
-                        <a><b>Set Https Certificate</b></a>
-                        <p>I encouter a error when I access the website on my phone, and from doing research online it's seems like my site is not secure so I have to use HTTPS protocal. I follow the online instruction for Apache HTTPS setting and it's very simple the with certbot it doing everything for me.</p>
+                        <p>After I got the Domain Name. I set the DNS to point to the GCP. This process is really really
+                            confusing for me it took me weeks to finally set it up. after a lot of mistake when
+                            following online instruction.
+                        <p>
+                            <a><b>Set Https Certificate</b></a>
+                        <p>I encouter a error when I access the website on my phone, and from doing research online it's
+                            seems like my site is not secure so I have to use HTTPS protocal. I follow the online
+                            instruction for Apache HTTPS setting and it's very simple the with certbot it doing
+                            everything for me.</p>
                         <a><b>Writing the Website!</b></a>
-                        <p>For the website I tried to make it from scratch at first but it look really bad&#x1F600; So I took the template from online and edit it from there. By modifying the existing template I have learn about Bootstrap and it make designing the UI really easy by using a pre-defined class for the element</p>
+                        <p>For the website I tried to make it from scratch at first but it look really bad&#x1F600; So I
+                            took the template from online and edit it from there. By modifying the existing template I
+                            have learn about Bootstrap and it make designing the UI really easy by using a pre-defined
+                            class for the element</p>
                         <a><b>Upload all the work from Local to Cloud</b></a>
-                        <p>I use Filezilla to upload all the files on my local computer to the cloud. This last part seem easy but very complicate for me on the ssh key part but I finally got it with many tries.</p>
+                        <p>I use Filezilla to upload all the files on my local computer to the cloud. This last part
+                            seem easy but very complicate for me on the ssh key part but I finally got it with many
+                            tries.</p>
                     </div>
                 </div>
             </div>
@@ -920,6 +933,14 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+        if (!localStorage.getItem('firstVisit')) {
+            localStorage.setItem('firstVisit', true);
+            location.reload();
+        }
+    </script>
+
 </body>
 
 </html>
