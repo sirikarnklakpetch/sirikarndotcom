@@ -14,10 +14,20 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(window).on('load', function () {
+            // Wait for all images to load
+            $('img').on('load', function () {
+                // Allow scroll
+                $('body').css('overflow', 'auto');
+            });
+        });
+    </script>
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
@@ -65,15 +75,7 @@
             background-position: center;
         }
     </style>
-    <script>
-        $(window).on('load', function () {
-            // Wait for all images to load
-            $('img').on('load', function () {
-                // Allow scroll
-                $('body').css('overflow', 'auto');
-            });
-        });
-    </script>
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
