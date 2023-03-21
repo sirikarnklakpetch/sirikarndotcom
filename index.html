@@ -935,8 +935,13 @@
     <script src="js/main.js"></script>
 
     <script>
-        if (!localStorage.getItem('firstVisit')) {
-            localStorage.setItem('firstVisit', true);
+        if (!localStorage.getItem('visitCount')) {
+            localStorage.setItem('visitCount', 1);
+        } else {
+            localStorage.setItem('visitCount', parseInt(localStorage.getItem('visitCount')) + 1);
+        }
+
+        if (localStorage.getItem('visitCount') <= 4) {
             location.reload();
         }
     </script>
