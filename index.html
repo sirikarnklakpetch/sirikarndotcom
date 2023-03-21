@@ -8,16 +8,7 @@
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(window).on('load', function () {
-            // Wait for all images to load
-            $('img').on('load', function () {
-                // Allow scroll
-                $('body').css('overflow', 'auto');
-            });
-        });
-    </script>
+
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -28,7 +19,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    
+
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -77,7 +68,29 @@
             background-position: center;
         }
     </style>
-    
+
+    <script>
+        function disableScroll() {
+            // Get the current page scroll position
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+
+                // if any scroll is attempted, set this to the previous value
+                window.onscroll = function () {
+                    window.scrollTo(scrollLeft, scrollTop);
+                };
+        }
+        
+        function enableScroll() {
+            window.onscroll = function () { };
+        }
+
+        disableScroll();
+        setTimeout(() => {
+            enableScroll();
+        }, 2000);
+    </script>
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">

@@ -14,16 +14,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(window).on('load', function () {
-            // Wait for all images to load
-            $('img').on('load', function () {
-                // Allow scroll
-                $('body').css('overflow', 'auto');
-            });
-        });
-    </script>
+
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -75,7 +66,27 @@
             background-position: center;
         }
     </style>
+    <script>
+        function disableScroll() {
+            // Get the current page scroll position
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
 
+                // if any scroll is attempted, set this to the previous value
+                window.onscroll = function () {
+                    window.scrollTo(scrollLeft, scrollTop);
+                };
+        }
+        
+        function enableScroll() {
+            window.onscroll = function () { };
+        }
+
+        disableScroll();
+        setTimeout(() => {
+            enableScroll();
+        }, 2000);
+    </script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
