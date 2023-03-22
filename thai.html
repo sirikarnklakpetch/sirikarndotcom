@@ -412,42 +412,57 @@
                     </div>
                     <div class="col-lg-7">
                         <h3 class="mb-4">1. หนูสร้างเซิร์ฟเวอร์ Minecraft เพื่อเอาไว้เล่นกับเพื่อนๆ!!</h3>
-                        <p>Minecraft เป็นเกมส์ที่ผู้เล่นสามารถผจญภัย, สร้างสิ่งต่างๆ และเอาชีวิตรอดในโลกของเกมส์ได้
+                        <p>Minecraft เป็นวีดีโอเกมส์ที่สร้างโดยบริษัท <b>Mojang</b> โดยเป็นเกมส์ผู้เล่นสามารถผจญภัย,
+                            สร้างสิ่งต่างๆ และเอาชีวิตรอดในโลกของเกมส์ที่มีมอนเตอร์อันตรายมากมาย
                             ผู้เล่นสามารถเลือกที่จะเล่นคนเดียว หรือกับผู้เล่นคนอื่นบนเซิร์ฟเวอร์ก็ได้
-                            คุณสามารถที่จะสร้างโลกในแบบของคุณ Minecraft
-                            ยังมีหลายเวอร์ชั่นให้เลือกเล่นได้บนหลายแพลตฟอร์ม</p>
-                        <p> Minecraft เซิร์ฟเวอร์ เป็นซอร์ฟแวร์ที่ทำให้ผู้เล่นคนอื่นๆสามารถเล่นด้วยกันได้ ซึ่งรูปแบบของเซิร์ฟเวอร์สามารถเปลี่ยนแปลงได้
+                            โดยผู้เล่นสามารถที่จะสร้างโลกในแบบของตัวเอง โดย Minecraft นั้น
+                            ยังมีหลากหลายเวอร์ชั่นให้เลือกเล่นได้บนหลายแพลตฟอร์ม</p>
+                        <p> Minecraft Server เป็นซอร์ฟแวร์ที่ทำให้ผู้เล่นคนอื่นๆสามารถเล่นด้วยกันได้
+                            ซึ่งรูปแบบของเซิร์ฟเวอร์สามารถเปลี่ยนแปลงได้
                             และอาจมีลูกเล่นต่างๆ เพิ่มเข้ามา
-<!-- A Minecraft server is a software that allows players to play together online in a multiplayer
+                            <!-- A Minecraft server is a software that allows players to play together online in a multiplayer
                             mode. There are many different types of servers with various game modes, maps, rules and
                             communities.</p> -->
                     </div>
                     <div class="col-lg-12 pt-4">
                         <h4 class="mb-4">สิ่งที่ได้ทำในโปรเจคต์นี้?</h4>
-                        <a><b>ทำการตั้งเซิร์ฟเวอร์บน Virtual Machine ของ Google Cloud Platform</b></a>
-                        <p>หนูได้เลือก GCP VM เป็นเซิร์ฟเวอร์ของเกมส์ โดยเซิร์ฟเวอร์ของ GCP เป็น Linux เซิร์ฟเวอร์ ส่วนตัวสเปคถูกเลือกให้ตรงกับ 
-                            ความต้องการ และก็ได้มีโอกาสในการติดตั้ง Firewall ด้วย ซึ่งจำเป็นที่จะต้องเปิด พอร์ต 25565 เพื่อตัว Minecraft เซิร์ฟเวอร์
-                            
+                        <a><b>ทำการตั้งเซิร์ฟเวอร์บน Virtual Machine ของ GCP (Google Cloud Platform)</b></a>
+                        <p>หนูได้เลือก GCP VM เป็นเซิร์ฟเวอร์ของเกมส์ โดยเซิร์ฟเวอร์ของ GCP นั้นเป็น Linux เซิร์ฟเวอร์
+                            ส่วนตัวสเปคของเซอเวอร์นั้น หนูได้เลือกให้ตรงกับ
+                            กับ Requirements ของตัวเกมส์ และในขั้นตอนนี้หนูก็ได้มีโอกาสลองใช้ feature ต่าง ๆ ของ GCP
+                            เช่นการติดตั้ง Firewall ให้กับ instance ด้วย ซึ่งตัว Minecraft Server
+                            นั้นจำเป็นที่จะต้องเปิด Port 25565
+                            ก่อน ถึงจะเข้าเล่นได้
+
                             <!-- I choose GCP VM as a server. The server is a Linux Server and it's spec is choosed to match
                             with the requirement of Minecraft Server. And I had a chance to set up a Firewall too! which
                             I need to open port 25565 for the Minecraft Server -->
                         </p>
-                        <a><b>ติดตั้งเซิร์ฟเวอร์บน Linux!</b></a>
-                        <p>สำหรับการใช้ Linux ในช่วงแรกๆก็จะมีเรื่องให้----- แต่พอได้ศึกษาวิธีการใช้แบบเบสิค เช่น คำสั่งพื้นฐาน การเปลี่ยน Directory 
-                            การแก้ไขไฟล์ด้วย Vim การ copy/paste และอีกหลายๆอย่าง ซึ่งข้อมูลพวกนี้ก็พอสำหรับในการเปิด Minecraft เซิร์ฟเวอร์
-                            
-                            
-                            Althouth using Linux is confusing at first but I have learn basic stuffs like navigating,
-                            edit file with Vim and copy/paste and others. which is enough to set up the server!</p>
-                        <a><b>Installing The Minecraft Server</b></a>
-                        <p>I download Minecraft Server and config it before I run the Server after that I send my server
-                            IP to my friend to join!</p>
-                        <a><b>Maintaining the Server</b></a>
-                        <p>While Running the Minecraft Server is simple. Maintaining it is quite a trouble especially
-                            when there are many people playing at the same time. The server will be slow and freezing.
-                            So I have to restart the server quite often and have to up grade the Server Spec On GCP
-                            occationally</p>
-                        <a><b>If you want to play!! Join us at</b></a>
+                        <a><b>เชื่อมต่อไปยัง Linux Server!</b></a>
+                        <p>สำหรับการใช้ Linux ในช่วงแรก ๆ นั้นก็มีสิ่งที่ทำให้สับสนอยู่หลายอย่าง เพราะมันต่างจาก Windows
+                            OS ที่มี Interface และ mouse กับ Keyboard ให้กด แต่พอได้ลองศึกษาวิธีการใช้ขั้นต้น เช่น
+                            คำสั่งพื้นฐาน การเปลี่ยน Directory
+                            การแก้ไขไฟล์ด้วย Vim การ copy/paste และอีกหลายๆอย่าง
+                            ซึ่งข้อมูลพวกนี้ก็เพียงพอสำหรับในการเปิด
+                            Minecraft เซิร์ฟเวอร์ได้ค่ะ</p>
+
+
+                        <!-- Althouth using Linux is confusing at first but I have learn basic stuffs like navigating,
+                        edit file with Vim and copy/paste and others. which is enough to set up the server! -->
+                        <a><b>ทำการติดตั้ง Minecraft Server</b></a>
+                        <p>หลังจากที่ได้ Linux Server มาแล้วก็ทำการดาวน์โหลด Minecraft Server มาจาก Mojang
+                            และก็ทำการตั้งค่าของเซิฟเวอร์นิดหน่อยก่อนที่จะ run ตัวเซิฟเวอร์ เช่นต้องการแบ่ง Ram
+                            ให้ตัวเกมส์เซิฟเวอร์เท่าไหร่ ซึ่งต้องสอดคล้องกับสเปคของ Server ของเรานะคะ
+                            ไม่อย่างนั้นเซิฟเวอร์จะ Freeze ได้ค่ะ
+                            หลังจากเซิฟเวอร์รันได้แล้ว ก็ส่ง Ip ของเซิฟเวอร์ไปให้เพื่อน ๆ เข้ามาเล่นด้วยกันได้เลยค่ะ !!
+                        </p>
+                        <a><b>บำรุงรักษาเซิฟเวอร์</b></a>
+                        <p>
+                            หลังจากที่เพื่อน ๆ เข้ามาเล่นในเซิฟเวอร์ได้กันแล้ว แต่ระหว่างเล่นไปนั้น ก้เกิดปัญหาต่าง ๆ
+                            อยู่เรื่อย ๆ เช่นเซิฟเวอร์ค้าง เพราะมีผู้เล่นเข้ามาเล่นพร้อมกันเยอะเกินไป
+                            เลยต้องทำการ Restart เซิฟเวอร์ และบางครั้งก็แก้ปัญหาด้วยการปรับเพิ่ม RAM ของ GCP VM ค่ะ</p>
+                        <a><b>ถ้าต้องการมาเล่นด้วยกัน สามารถเข้ามาได้ที่ IP นี้เลยค่ะ (แต่ต้องมีตัวเกมส์
+                                ก่อนนะคะ)</b></a>
                         <h4 class="mb-4">35.194.245.73:25565</h4>
                     </div>
                 </div>
@@ -459,44 +474,46 @@
                         <img class="img-fluid rounded w-100" src="img/code.jpg" alt="">
                     </div>
                     <div class="col-lg-7">
-                        <h3 class="mb-4">2. This SITE!!</h3>
-                        <p>I create this site to display my ability and my interest in computer field. To create this
-                            site I have try both front end and back end programming[I think backend is ways harder <a
-                                style="color: red;">:&#40;</a>]</p>
+                        <h3 class="mb-4">2. เว็ปไซต์ sirikarn.com</h3>
+                        <p>เว็ปนี้หนูสร้างขึ้นมาเพื่อนำเสนอความสามารถและความสนใจที่หนูมีต่อสาขาคอมพิวเตอร์ค่ะ
+                            ซึ่งการทำเว็ปไซต์นี้ขึ้นมา ทำให้หนูได้เรียนรู้ทั้งการทำ Frontend และ Backend ค่ะ
+                            (และทำให้หนูได้รู้ถึงความยุ่งยากของ Backend เลยค่ะ ☹️)
                     </div>
                     <div class="col-lg-12 pt-4">
-                        <h4 class="mb-4">What did I do in this project?</h4>
-                        <a><b>Setting up Virtual Machine on Google Cloud Platform</b></a>
-                        <p>Same as the project above I also use GCP as a cloud service to host this site.</p>
-                        <a><b>Setting Up the Server on Linux</b></a>
-                        <p>For the server I use Apache as web server because it's seem easy to me as I only host basic
-                            html. So I install the Apache on the Linux</p>
-                        <a><b>The server is online! but not yet...</b></a>
-                        <p>Right now my server is showing only Apache default page and the website is only accessable
-                            with IP address <a style="color: green;">&lt;!--and that is not convinience at all--&gt;</a>
+                        <h4 class="mb-4">ได้ทำอะไรในโปรเจคต์นี้ ?</h4>
+                        <a><b>ทำการตั้งเซิฟเวอร์ บน Virtual Machine ของ Google Cloud Platform</b></a>
+                        <p>การตั้งเซิฟเวอร์ของเซิฟนี้ก็คล้ายกับโปรเจคต์ก่อนหน้านี้ โดยใช้ GCP เป็น Cloud Platform</p>
+                        <a><b>ตั้งค่า Server บน Linux</b></a>
+                        <p>ในส่วนของการ Host เว็ปเซต์นั้นหนูเลือกที่จะใช้ Apache เป็น Web Server ค่ะ
+                            เพราะว่าจากการลองศึกษาดูแล้ว Apache มีการใช้งานที่ง่าย
+                            และมีฟังก์ชั่นที่ครบตามที่ต้องการค่ะ</p>
+                        <a><b>เว็ปไซต์กำลัง Online อยู่! ...แต่ยังไม่เสร็จค่ะ</b></a>
+                        <p>ตอนนี้ถึงแม้ว่าเว็ปไซต์จะสามารถเข้าไปดูได้แล้ว แต่หน้าเว็ปยังคงเป็นแค่หน้า Default ของ Apache
+                            อยู่ค่ะ ซึ่งสามารถเข้าไปดูได้ด้วย IP ของ เซอเวอร์
                         </p>
-                        <a><b>Buying Domain name</b></a>
-                        <p>I want my website to name after me not just some numbers. So I bought the domain name
-                            "sirikarn.com" from Google Domain for a year!</p>
-                        <a><b>Set DNS server</b></a>
-                        <p>After I got the Domain Name. I set the DNS to point to the GCP. This process is really really
-                            confusing for me it took me weeks to finally set it up. after a lot of mistake when
-                            following online instruction.
+                        <a><b>ทำการซื้อ Domain name</b></a>
+                        <p>เนื่องจากหนูอยากให้เว็ปไซต์นี้มีชื่อเหมือนกับหนู ไม่ใช่เป็นแค่ตัวเลข IP หนูเลยทำการซื้อ
+                            Domain Name ชื่อ "sirikarn.com" มาจาก Google Domain เป็นเวลา 1 ปีค่ะ</p>
+                        <a><b>ตั้งค่า DNS server</b></a>
+                        <p>หลังจากที่ได้ Domain Name มา หนูจำเป็นที่จะต้องไปตั้งค่าให้ DNS ชี้มายัง GCP ค่ะ
+                            ซึ่งขั้นตอนนี้หนูคิดว่ามันยากและสับสนมาก ต้องใช้เวลาอยู่นานจนกว่าจะเจอวิธีการที่ถูกต้อง
+                            ตามคำแนะนำบนอินเทอร์เน็ตค่ะ
                         <p>
-                            <a><b>Set Https Certificate</b></a>
-                        <p>I encouter a error when I access the website on my phone, and from doing research online it's
-                            seems like my site is not secure so I have to use HTTPS protocal. I follow the online
-                            instruction for Apache HTTPS setting and it's very simple the with certbot it doing
-                            everything for me.</p>
-                        <a><b>Writing the Website!</b></a>
-                        <p>For the website I tried to make it from scratch at first but it look really bad&#x1F600; So I
-                            took the template from online and edit it from there. By modifying the existing template I
-                            have learn about Bootstrap and it make designing the UI really easy by using a pre-defined
-                            class for the element</p>
-                        <a><b>Upload all the work from Local to Cloud</b></a>
-                        <p>I use Filezilla to upload all the files on my local computer to the cloud. This last part
-                            seem easy but very complicate for me on the ssh key part but I finally got it with many
-                            tries.</p>
+                            <a><b>ตั้งค่า ใบรับรอง HTTPS</b></a>
+                        <p>หลังจากที่ได้มีการเข้าไปดูเว็ปไซต์บนมือถือ หนูพบว่ามันเกิด Error ว่าเว็ปของหนูนั้นไม่ปลอดภัย
+                            จึงได้ทำการศึกษาหาคำตอบจากอินเทอร์เน็ตดู จึงพบว่ามันเกิดจากเซิฟเวอร์ของหนูยังไม่มีใบรับรอง
+                            HTTPS ต่อจากนั้นก็ทำการแก้ไขปัญหานี้ไปค่ะ ด้วยการใช้ Certbot
+                            ซึ่งขั้นตอนนี้นั้นมีความง่ายกว่าที่คิดมากค่ะ เพียงแค่คำสั่งเดียวที่ run ตัว Certbot
+                            ก็จัดทำใบรับรองจาก let's Encrypt ให้เรียบร้อย</p>
+                        <a><b>เริ่มการเขียนเว็ปไซต์ !!</b></a>
+                        <p>สำหรับการเขียนเว็ปไซต์นี้ขึ้นมานั้น ตอนแรกหนูพยายามที่จะเขียนโดยเริ่มจากหน้าเปล่า ๆ
+                            แต่พอลองทำดูแล้วหน้าตามันดูไม่ทันสมัยมาก ๆ เลยค่ะ &#x1F600; หนูเลยทำการนำ Template
+                            จากอินเทอร์เน็ตมาแก้ไขดู ซึ่งทำให้หนูได้เรียนรู้เกี่ยวกับการใช้ ฺBoostrap ซึ่งทำให้การจัด UI
+                            นั้นง่ายมาก ๆ เพียงแค่ตั้งชื่อ Class ให้กับ Element ก็จะได้ UI สวย ๆ แล้วค่ะ</p>
+                        <a><b>Upload เว็ปไซต์ที่เขียนบนคอมของหนูขึ้นไปบนเซิฟเวอร์</b></a>
+                        <p>ในส่วนนี้หนูใช้ Filezilla เพื่อทำการเคลื่อนย้ายไฟล์ต่าง ๆ ค่ะ
+                            ซึ่งในส่วนนี้ตอนแรกหนูนึกว่าจะง่าย แต่ก็แอบมีส่วนยุ่งยากในการสร้าง SSH Key อยู่เหมือนกันค่ะ
+                        </p>
                     </div>
                 </div>
             </div>
