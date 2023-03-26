@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sirikarn Klakpetch</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Thai:400&display=swap">
+
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <style>
+        body {
+            font-family: 'IBM Plex Sans Thai', sans-serif;
+        }
+
+        /* Style the button */
+        .button {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 25px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        /* Add a hover effect for buttons */
+        .button:hover {
+            background-color: #3e8e41;
+        }
+
+        /* Add a shadow effect to the button */
+        .button:active {
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .button {
+            background-image: url('english.png');
+            background-repeat: repeat;
+            background-position: center;
+        }
+    </style>
+
+    <style>
+        div.gallery {
+            border: 1px solid #ccc;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Sirikarn</span>Klakpetch</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">หน้าแรก</a>
+                <a href="#about" class="nav-item nav-link">เกี่ยวกับฉัน</a>
+                <a href="#qualification" class="nav-item nav-link">การศึกษา</a>
+                <a href="#skill" class="nav-item nav-link">ทักษะ</a>
+                <a href="#service" class="nav-item nav-link">โปรเจกต์</a>
+                <a href="#portfolio" class="nav-item nav-link">คลังภาพ</a>
+                <!-- <a href="#testimonial" class="nav-item nav-link">Review</a>
+                <a href="#blog" class="nav-item nav-link">Blog</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a> -->
+            </div>
+            <!-- <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a> -->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.png" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">สวัสดีค่ะ หนูชื่อ</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">
+                        สิริกานต์ กลักเพชร</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">สมัครเข้า มหาวิทยาลัยเกษตรศาสตร์ คณะวิศวกรรมศาสตร์
+                        สาขาวิศวกรรมคอมพิวเตอร์, สมัครเข้า มหาวิทยาลัยเกษตรศาสตร์ คณะวิศวกรรมศาสตร์
+                        สาขาวิศวกรรมคอมพิวเตอร์
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="portfolio_sirikarn_klakpetch.pdf" target="_blank"
+                            class="btn btn-outline-light mr-5">ดาวน์โหลด PDF</a>
+                        <button type="button" class="btn-play" data-toggle="modal"
+                            data-src="https://www.youtube.com/embed/36lp80PmwwU" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">เกี่ยวกับฉัน</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">สิริกานต์ กลักเพชร</h3>
+                    <p> หนูมีความชอบในด้านเทคโนโลยีและการได้ใช้นวัตกรรมใหม่ๆ
+                        และคิดว่าถ้าได้เข้ามาในคณะนี้แล้วจะมีโอกาสทำงานได้หลายสายเช่น
+                        การพัฒนาซอฟต์แวร์ การออกแบบฮาร์ดแวร์ และวิศวกรรมเครือข่าย
+                    </p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2">
+                            <h6>ชื่อ: <span class="text-secondary">สิริกานต์ กลักเพชร</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>วันเกิด: <span class="text-secondary">8 ธันวาคม พ.ศ.2547</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>การศึกษา: <span class="text-secondary">มัธยมศึกษาปีที่ 6</span></h6>
+                        </div>
+                        <!-- <div class="col-sm-6 py-2"><h6> <span class="text-secondary"> </span></h6></div> -->
+                        <div class="col-sm-6 py-2">
+                            <h6>เบอร์โทรศัพท์: <span class="text-secondary">083-003-8547</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>Email: <span class="text-secondary">s.klakpetch@gmail.com</span></h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h6>ที่อยู่: <span class="text-secondary">นนทบุรี, ประเทศไทย</span></h6>
+                        </div>
+                        <!-- <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div> -->
+                    </div>
+                    <!-- <a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
+                    <a href="" class="btn btn-outline-primary">Learn More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Education</h1>
+                <h1 class="position-absolute text-uppercase text-primary">การศึกษา</h1>
+            </div>
+            <div class="row align-items-center ">
+                <div class="col-lg-6 ">
+                    <h3 class="mb-4">การศึกษา</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">โรงเรียน กสิณธรเซนต์ปีเตอร์</h5>
+                            <p class="mb-2"><strong>อนุบาล 1 - 3</strong> | <small>2551 - 2554</small></p>
+
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">โรงเรียน กสิณธรเซนต์ปีเตอร์</h5>
+                            <p class="mb-2"><strong>ประถมศึกษาปีที่ 1 - 3 </strong> | <small>2554 - 2557</small></p>
+
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">โรงเรียนพิชญศึกษา</h5>
+                            <p class="mb-2"><strong>ประถมศึกษาปีที่ 3 - 6</strong> | <small>2557 - 2560</small></p>
+
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute"
+                                style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">โรงเรียนสวนกุหลาบวิทยาลัย นนทบุรี</h5>
+                            <p class="mb-2"><strong>มัธยมศึกษาปีที่ 1 - 6</strong> | <small>2560 - 2566</small></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">ทักษะ</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">ภาษาอังกฤษ</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-english" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">HTML</h6>
+                            <h6 class="font-weight-bold">20%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">CSS</h6>
+                            <h6 class="font-weight-bold">25%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Python</h6>
+                            <h6 class="font-weight-bold">10%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Javascript</h6>
+                            <h6 class="font-weight-bold">10%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Server Side</h6>
+                            <h6 class="font-weight-bold">25%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Linux</h6>
+                            <h6 class="font-weight-bold">7%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-english" role="progressbar" aria-valuenow="7" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Machine Learning</h6>
+                            <h6 class="font-weight-bold">5%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="5" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">ผลงาน</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Biggest Project!</h1>
+            </div>
+
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 pb-4 pb-lg-0">
+                        <img class="img-fluid rounded w-100" src="img/Minecraft-screenshot.jpg" alt="">
+                    </div>
+                    <div class="col-lg-7">
+                        <h3 class="mb-4">1. หนูสร้างเซิร์ฟเวอร์ Minecraft เพื่อเอาไว้เล่นกับเพื่อนๆ!!</h3>
+                        <p>Minecraft เป็นวีดีโอเกมส์ที่สร้างโดยบริษัท <b>Mojang</b> โดยเป็นเกมส์ผู้เล่นสามารถผจญภัย,
+                            สร้างสิ่งต่างๆ และเอาชีวิตรอดในโลกของเกมส์ที่มีมอนเตอร์อันตรายมากมาย
+                            ผู้เล่นสามารถเลือกที่จะเล่นคนเดียว หรือกับผู้เล่นคนอื่นบนเซิร์ฟเวอร์ก็ได้
+                            โดยผู้เล่นสามารถที่จะสร้างโลกในแบบของตัวเอง โดย Minecraft นั้น
+                            ยังมีหลากหลายเวอร์ชั่นให้เลือกเล่นได้บนหลายแพลตฟอร์ม</p>
+                        <p> Minecraft Server เป็นซอร์ฟแวร์ที่ทำให้ผู้เล่นคนอื่นๆสามารถเล่นด้วยกันได้
+                            ซึ่งรูปแบบของเซิร์ฟเวอร์สามารถเปลี่ยนแปลงได้
+                            และอาจมีลูกเล่นต่างๆ เพิ่มเข้ามา
+                            <!-- A Minecraft server is a software that allows players to play together online in a multiplayer
+                            mode. There are many different types of servers with various game modes, maps, rules and
+                            communities.</p> -->
+                    </div>
+                    <div class="col-lg-12 pt-4">
+                        <h4 class="mb-4">สิ่งที่ได้ทำในโปรเจคต์นี้?</h4>
+                        <a><b>ทำการตั้งเซิร์ฟเวอร์บน Virtual Machine ของ GCP (Google Cloud Platform)</b></a>
+                        <p>หนูได้เลือก GCP VM เป็นเซิร์ฟเวอร์ของเกมส์ โดยเซิร์ฟเวอร์ของ GCP นั้นเป็น Linux เซิร์ฟเวอร์
+                            ส่วนตัวสเปคของเซอเวอร์นั้น หนูได้เลือกให้ตรงกับ
+                            กับ Requirements ของตัวเกมส์ และในขั้นตอนนี้หนูก็ได้มีโอกาสลองใช้ feature ต่าง ๆ ของ GCP
+                            เช่นการติดตั้ง Firewall ให้กับ instance ด้วย ซึ่งตัว Minecraft Server
+                            นั้นจำเป็นที่จะต้องเปิด Port 25565
+                            ก่อน ถึงจะเข้าเล่นได้
+
+                            <!-- I choose GCP VM as a server. The server is a Linux Server and it's spec is choosed to match
+                            with the requirement of Minecraft Server. And I had a chance to set up a Firewall too! which
+                            I need to open port 25565 for the Minecraft Server -->
+                        </p>
+                        <a><b>เชื่อมต่อไปยัง Linux Server!</b></a>
+                        <p>สำหรับการใช้ Linux ในช่วงแรก ๆ นั้นก็มีสิ่งที่ทำให้สับสนอยู่หลายอย่าง เพราะมันต่างจาก Windows
+                            OS ที่มี Interface และ mouse กับ Keyboard ให้กด แต่พอได้ลองศึกษาวิธีการใช้ขั้นต้น เช่น
+                            คำสั่งพื้นฐาน การเปลี่ยน Directory
+                            การแก้ไขไฟล์ด้วย Vim การ copy/paste และอีกหลายๆอย่าง
+                            ซึ่งข้อมูลพวกนี้ก็เพียงพอสำหรับในการเปิด
+                            Minecraft เซิร์ฟเวอร์ได้ค่ะ</p>
+
+
+                        <!-- Althouth using Linux is confusing at first but I have learn basic stuffs like navigating,
+                        edit file with Vim and copy/paste and others. which is enough to set up the server! -->
+                        <a><b>ทำการติดตั้ง Minecraft Server</b></a>
+                        <p>หลังจากที่ได้ Linux Server มาแล้วก็ทำการดาวน์โหลด Minecraft Server มาจาก Mojang
+                            และก็ทำการตั้งค่าของเซิฟเวอร์นิดหน่อยก่อนที่จะ run ตัวเซิฟเวอร์ เช่นต้องการแบ่ง Ram
+                            ให้ตัวเกมส์เซิฟเวอร์เท่าไหร่ ซึ่งต้องสอดคล้องกับสเปคของ Server ของเรานะคะ
+                            ไม่อย่างนั้นเซิฟเวอร์จะ Freeze ได้ค่ะ
+                            หลังจากเซิฟเวอร์รันได้แล้ว ก็ส่ง Ip ของเซิฟเวอร์ไปให้เพื่อน ๆ เข้ามาเล่นด้วยกันได้เลยค่ะ !!
+                        </p>
+                        <a><b>บำรุงรักษาเซิฟเวอร์</b></a>
+                        <p>
+                            หลังจากที่เพื่อน ๆ เข้ามาเล่นในเซิฟเวอร์ได้กันแล้ว แต่ระหว่างเล่นไปนั้น ก้เกิดปัญหาต่าง ๆ
+                            อยู่เรื่อย ๆ เช่นเซิฟเวอร์ค้าง เพราะมีผู้เล่นเข้ามาเล่นพร้อมกันเยอะเกินไป
+                            เลยต้องทำการ Restart เซิฟเวอร์ และบางครั้งก็แก้ปัญหาด้วยการปรับเพิ่ม RAM ของ GCP VM ค่ะ</p>
+                        <a><b>ถ้าต้องการมาเล่นด้วยกัน สามารถเข้ามาได้ที่ IP นี้เลยค่ะ (แต่ต้องมีตัวเกมส์
+                                ก่อนนะคะ)</b></a>
+                        <h4 class="mb-4">35.194.245.73:25565</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 pb-4 pb-lg-0">
+                        <img class="img-fluid rounded w-100" src="img/code.jpg" alt="">
+                    </div>
+                    <div class="col-lg-7">
+                        <h3 class="mb-4">2. เว็ปไซต์ sirikarn.com</h3>
+                        <p>เว็ปนี้หนูสร้างขึ้นมาเพื่อนำเสนอความสามารถและความสนใจที่หนูมีต่อสาขาคอมพิวเตอร์ค่ะ
+                            ซึ่งการทำเว็ปไซต์นี้ขึ้นมา ทำให้หนูได้เรียนรู้ทั้งการทำ Frontend และ Backend ค่ะ
+                            (และทำให้หนูได้รู้ถึงความยุ่งยากของ Backend เลยค่ะ ☹️)
+                    </div>
+                    <div class="col-lg-12 pt-4">
+                        <h4 class="mb-4">ได้ทำอะไรในโปรเจคต์นี้ ?</h4>
+                        <a><b>ทำการตั้งเซิฟเวอร์ บน Virtual Machine ของ Google Cloud Platform</b></a>
+                        <p>การตั้งเซิฟเวอร์ของเซิฟนี้ก็คล้ายกับโปรเจคต์ก่อนหน้านี้ โดยใช้ GCP เป็น Cloud Platform</p>
+                        <a><b>ตั้งค่า Server บน Linux</b></a>
+                        <p>ในส่วนของการ Host เว็ปเซต์นั้นหนูเลือกที่จะใช้ Apache เป็น Web Server ค่ะ
+                            เพราะว่าจากการลองศึกษาดูแล้ว Apache มีการใช้งานที่ง่าย
+                            และมีฟังก์ชั่นที่ครบตามที่ต้องการค่ะ</p>
+                        <a><b>เว็ปไซต์กำลัง Online อยู่! ...แต่ยังไม่เสร็จค่ะ</b></a>
+                        <p>ตอนนี้ถึงแม้ว่าเว็ปไซต์จะสามารถเข้าไปดูได้แล้ว แต่หน้าเว็ปยังคงเป็นแค่หน้า Default ของ Apache
+                            อยู่ค่ะ ซึ่งสามารถเข้าไปดูได้ด้วย IP ของ เซอเวอร์
+                        </p>
+                        <a><b>ทำการซื้อ Domain name</b></a>
+                        <p>เนื่องจากหนูอยากให้เว็ปไซต์นี้มีชื่อเหมือนกับหนู ไม่ใช่เป็นแค่ตัวเลข IP หนูเลยทำการซื้อ
+                            Domain Name ชื่อ "sirikarn.com" มาจาก Google Domain เป็นเวลา 1 ปีค่ะ</p>
+                        <a><b>ตั้งค่า DNS server</b></a>
+                        <p>หลังจากที่ได้ Domain Name มา หนูจำเป็นที่จะต้องไปตั้งค่าให้ DNS ชี้มายัง GCP ค่ะ
+                            ซึ่งขั้นตอนนี้หนูคิดว่ามันยากและสับสนมาก ต้องใช้เวลาอยู่นานจนกว่าจะเจอวิธีการที่ถูกต้อง
+                            ตามคำแนะนำบนอินเทอร์เน็ตค่ะ
+                        <p>
+                            <a><b>ตั้งค่า ใบรับรอง HTTPS</b></a>
+                        <p>หลังจากที่ได้มีการเข้าไปดูเว็ปไซต์บนมือถือ หนูพบว่ามันเกิด Error ว่าเว็ปของหนูนั้นไม่ปลอดภัย
+                            จึงได้ทำการศึกษาหาคำตอบจากอินเทอร์เน็ตดู จึงพบว่ามันเกิดจากเซิฟเวอร์ของหนูยังไม่มีใบรับรอง
+                            HTTPS ต่อจากนั้นก็ทำการแก้ไขปัญหานี้ไปค่ะ ด้วยการใช้ Certbot
+                            ซึ่งขั้นตอนนี้นั้นมีความง่ายกว่าที่คิดมากค่ะ เพียงแค่คำสั่งเดียวที่ run ตัว Certbot
+                            ก็จัดทำใบรับรองจาก let's Encrypt ให้เรียบร้อย</p>
+                        <a><b>เริ่มการเขียนเว็ปไซต์ !!</b></a>
+                        <p>สำหรับการเขียนเว็ปไซต์นี้ขึ้นมานั้น ตอนแรกหนูพยายามที่จะเขียนโดยเริ่มจากหน้าเปล่า ๆ
+                            แต่พอลองทำดูแล้วหน้าตามันดูไม่ทันสมัยมาก ๆ เลยค่ะ &#x1F600; หนูเลยทำการนำ Template
+                            จากอินเทอร์เน็ตมาแก้ไขดู ซึ่งทำให้หนูได้เรียนรู้เกี่ยวกับการใช้ ฺBoostrap ซึ่งทำให้การจัด UI
+                            นั้นง่ายมาก ๆ เพียงแค่ตั้งชื่อ Class ให้กับ Element ก็จะได้ UI สวย ๆ แล้วค่ะ</p>
+                        <a><b>Upload เว็ปไซต์ที่เขียนบนคอมของหนูขึ้นไปบนเซิฟเวอร์</b></a>
+                        <p>ในส่วนนี้หนูใช้ Filezilla เพื่อทำการเคลื่อนย้ายไฟล์ต่าง ๆ ค่ะ
+                            ซึ่งในส่วนนี้ตอนแรกหนูนึกว่าจะง่าย แต่ก็แอบมีส่วนยุ่งยากในการสร้าง SSH Key อยู่เหมือนกันค่ะ
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="row pb-3 pt-3">
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Design</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+                        labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Development</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+                        labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Apps Design</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+                        labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Apps Development</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+                        labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">SEO</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+                        labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Content Creating</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet
+                        labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Interest</h1>
+                <h1 class="position-absolute text-uppercase text-primary">สิ่งที่คาดหวังว่าจะได้เรียนรู้</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-12 pt-4">
+                    <h4 class="mb-4">อยากเรียนรู้เรื่อง AI /Machine Learning</h4>
+                    <p>ในตอนนี้ที่ AI เป็นสิ่งที่ Programmer ทุกคนควรรู้ หนูจึงอยากจะเรียนเกี่ยวกับ machine learning,
+                        natural language processing และ computer vision ค่ะ หนูอยากที่จะเรียนรู้กับการนำเอา AI
+                        ไปประยุกต์กับเทคโนโลยีต่าง ๆ รอบตัวเพื่อพัฒนาให้ดีขึ้นค่ะ และหนูเชื่อว่าที่
+                        มหาวิทยาลัยเกษตรศาสตร์นี้ หนูจะได้รับการศึกษาหรือได้ใช้ทรัพยากรของทางคณะ
+                        และให้เกิดความรู้ความเข้าใจด้าน AI เป็นอย่างมากค่ะ</p>
+                    <h4 class="mb-4">อยากรู้การทำงานของ Internet</h4>
+                    <p>นอกจากเรื่อง AI แล้ว หนูก็มีความสนใจในด้าน Internet ค่ะ และอยากเรียนรู้เพิ่มทั้งการสร้าง Website
+                        และโครงสร้างของระบบเครือข่าย หนูเชื่อว่าในตอนนี้ Internet
+                        จะเป็นรากฐานของเทคโนโลยี ทำให้ความเข้าใจในส่วนนี้จะทำให้เราสามารถสร้างสิ่งใหม่ ๆ
+                        ได้อย่างมีคุณภาพค่ะ</p>
+                    <h4 class="mb-4">ความสนใจในการพัฒนาวีดีโอเกมส์</h4>
+                    <p>หนูอยากได้โอกาศลองศึกษา พัฒนาและออกแบบวิดีโอเกมส์ดูค่ะ หนูอยากเรียนรู้วิธีการใช้ Game Engine ต่าง
+                        ๆ การเขียนโปรแกรมเพื่อพัฒนาเกมส์ และหลักการออกแบบเกมส์ค่ะ
+                        หนูเชื่อว่าถ้าได้เรียนที่มหาวิทยาลัยเกษตรศาสตร์แห่งนี้สมารถที่จะทำให้หนูพัฒนาความสามารถในด้านนี้ได้ค่ะ
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+<!-- Portfolio Start -->
+<div class="container-fluid pt-5 pb-3" id="portfolio">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Portfolio</h1>
+            <h1 class="position-absolute text-uppercase text-primary">My Certificate & Gallery</h1>
+        </div>
+
+        <div class="row portfolio-container">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/cert/ปพ.1.1.jpg">
+                        <img src="img/cert/ปพ.1.1.jpg" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">ใบ ปพ 1.1</div>
+                </div>
+            </div>
+
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/cert/ปพ1.2.jpg">
+                        <img src="img/cert/ปพ1.2.jpg" alt="Forest" width="600" height="400">
+                    </a>
+                    <div class="desc">ใบ ปพ 1.2</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/cert/ปพ.1.3.jpg">
+                        <img src="img/cert/ปพ.1.3.jpg" alt="Northern Lights" width="600" height="400">
+                    </a>
+                    <div class="desc">ใบ ปพ.1.3</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/cert/cutep.jpg">
+                        <img src="img/cert/cutep.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">CU-TEP Score Report</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/cert/oxford.jpg">
+                        <img src="img/cert/oxford.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">Oxford Placement Test</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/cert/ScinAct.jpg">
+                        <img src="img/cert/ScinAct.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">เกียรติบัตร Science in Action</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/cert/เกรด5.jpg">
+                        <img src="img/cert/เกรด5.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">เกียรติบัตรเรียนดี</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/cert/เกรดม.5.jpg">
+                        <img src="img/cert/เกรดม.5.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">เกียรติบัตรเรียนดี</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/cert/เกรดม.6.jpg">
+                        <img src="img/cert/เกรดม.6.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">เกียรติบัตรเรียนดี</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/cert/ธารน้ำใจ.jpg">
+                        <img src="img/cert/ธารน้ำใจ.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">เกียรติบัตรธารน้ำใจ</div>
+                </div>
+            </div>
+
+
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/event/k1.jpg">
+                        <img src="img/event/k1.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">รูปภาพกิจกรรม</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/event/k3.jpg">
+                        <img src="img/event/k3.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">รูปภาพกิจกรรม</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/event/o1.jpg">
+                        <img src="img/event/o1.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">รูปภาพกิจกรรม</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/event/o2.jpg">
+                        <img src="img/event/o2.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">รูปภาพกิจกรรม</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/event/o3.jpg">
+                        <img src="img/event/o3.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">รูปภาพกิจกรรม</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/event/p1.jpg">
+                        <img src="img/event/p1.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">รูปภาพกิจกรรม</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/event/p2.jpg">
+                        <img src="img/event/p2.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">รูปภาพกิจกรรม</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/event/p3.jpg">
+                        <img src="img/event/p3.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">รูปภาพกิจกรรม</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/event/p4.jpg">
+                        <img src="img/event/p4.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">รูปภาพกิจกรรม</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/event/s1.jpg">
+                        <img src="img/event/s1.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">รูปภาพกิจกรรม</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/event/s2.jpg">
+                        <img src="img/event/s2.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">รูปภาพกิจกรรม</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="img/event/s3.jpg">
+                        <img src="img/event/s3.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">รูปภาพกิจกรรม</div>
+                </div>
+            </div>
+
+
+            <div class="clearfix"></div>
+
+        </div>
+
+
+    </div>
+</div>
+<!-- Portfolio End -->
+
+
+
+    <!-- gallery Start -->
+    <!-- <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Gallery</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".efirst">Science In Action</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".esecond">Physic</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".ethird">Open House</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".eforth">Ku</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item efirst">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/eventthumb/s1.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/event/s1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item efirst">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/eventthumb/s2.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/event/s2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item efirst">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/eventthumb/s3.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/event/s3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item esecond">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/eventthumb/p1.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/event/p1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item esecond">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/eventthumb/p2.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/event/p2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item esecond">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/eventthumb/p3.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/img/event/p3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item esecond">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/eventthumb/p4.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/event/p4.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item ethird">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/eventthumb/o2.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/event/o2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item ethird">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/eventthumb/o3.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/event/o3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item eforth">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/eventthumb/k1.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/event/k1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item eforth">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/eventthumb/k3.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/event/k3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- gallery End -->
+
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-fluid py-5" id="testimonial">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Clients Say</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos.
+                                Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet
+                                accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-1.jpg"
+                                style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos.
+                                Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet
+                                accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-2.jpg"
+                                style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos.
+                                Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet
+                                accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-3.jpg"
+                                style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+
+    <!-- Blog Start -->
+    <!-- <div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Blog</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Latest Blog</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-1.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum
+                    </h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum
+                    </h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum
+                    </h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Blog End -->
+
+
+    <!-- Contact Start -->
+    <!-- <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                        required="required"
+                                        data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <!-- <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div> 
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Sirikarn Klakpetch</a>
+            </p>
+        </div>
+    </div>  -->
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <a href="/"><button class="button">English</button></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- <script>
+        if (!localStorage.getItem('visitCount')) {
+            localStorage.setItem('visitCount', 1);
+        } else {
+            localStorage.setItem('visitCount', parseInt(localStorage.getItem('visitCount')) + 1);
+        }
+
+        if (localStorage.getItem('visitCount') <= 4) {
+            location.reload();
+        }
+    </script> -->
+
+</body>
+
+</html>
